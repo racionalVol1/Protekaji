@@ -1,0 +1,41 @@
+## Build Results
+bin/
+obj/
+out/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## OS-generated files
+.DS_Store
+Thumbs.db
+
+## Visual Studio files
+.vscode/
+*.code-workspace
+
+## ASP.NET Core
+appsettings.Development.json
+app.db
+
+## Publish output
+wwwroot/dist/
+wwwroot/node_modules/
+
+## .NET-related
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Logs
+*.log
+
+## Entity Framework Migrations (se for local apenas)
+Migrations/
+
+## Rider
+.idea/
+*.sln.iml
