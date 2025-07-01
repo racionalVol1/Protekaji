@@ -1,41 +1,65 @@
-## Build Results
+# Build e artefatos
 bin/
 obj/
 out/
+artifacts/
 
-## User-specific files
-*.user
+# Configurações de IDEs
+.vscode/
+*.code-workspace
+.idea/
+*.sln.iml
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+*.log
+
+# Arquivos de usuário do Visual Studio
 *.suo
+*.user
 *.userosscache
 *.sln.docstates
 
-## OS-generated files
-.DS_Store
-Thumbs.db
+# Arquivos de dependências e cache
+project.lock.json
+project.fragment.lock.json
 
-## Visual Studio files
-.vscode/
-*.code-workspace
+# ASP.NET Core
+wwwroot/node_modules/
+wwwroot/dist/
+node_modules/
+dist/
 
-## ASP.NET Core
+# Arquivos sensíveis e de desenvolvimento
 appsettings.Development.json
 app.db
 
-## Publish output
-wwwroot/dist/
-wwwroot/node_modules/
+# SQLite (caso o banco seja local e não de produção)
+*.db
+*.db-journal
 
-## .NET-related
-project.lock.json
-project.fragment.lock.json
-artifacts/
+# Publish output
+publish/
+*.pubxml
+*.publishproj
 
-## Logs
+# Logs
+logs/
 *.log
 
-## Entity Framework Migrations (se for local apenas)
-Migrations/
+# Testes
+TestResults/
+*.coverage
+*.coveragejson
+*.trx
 
-## Rider
-.idea/
-*.sln.iml
+# Ferramentas locais
+.env
+.env.*
+
+# Entity Framework (se quiser ignorar migrações locais)
+# Migrations/
+
+# Outros arquivos pessoais
+*.vs/
