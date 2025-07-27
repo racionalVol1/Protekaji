@@ -19,7 +19,7 @@ Criar uma aplicação web simples utilizando C# e ASP.NET MVC que permita:
 - **Bootstrap** (para estilização)
 - **Razor Pages**
   
-🛠 Funcionalidades
+## 🛠 Funcionalidades
  Cadastro de novo lote de extintores
 
  Listagem de todos os lotes
@@ -28,6 +28,5 @@ Criar uma aplicação web simples utilizando C# e ASP.NET MVC que permita:
 
  Exclusão de lotes
  
-👨‍💻 Autor
+## 👨‍💻 Autor
 Desenvolvido por Guilherme Perondi
-LinkedIn | GitHub
